@@ -8,4 +8,8 @@ package lcs;
  */
 
 public class LCS {
+    public static void lcs(String S1, String S2) {
+        int Len_S1 = S1.length();
+        int Len_S2 = S2.length();
+    }
 }
