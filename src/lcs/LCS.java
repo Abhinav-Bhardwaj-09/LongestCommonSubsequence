@@ -55,5 +55,11 @@ public class LCS {
         }
         display_LCS(temp, lcs);
     }
-
+    static void display_LCS(int length, char [] LCS){
+        System.out.print("LCS will be : ");
+        for (int k = 0; k <= length; k++){
+            System.out.print(LCS[k]);
+        }
+        System.out.println("\n");
+    }
 }
